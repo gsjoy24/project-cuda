@@ -1,0 +1,158 @@
+/* ------------------------- 
+style for screen width 1400px
+ ------------------------- */
+@media only screen and (max-width: 1400px) {
+
+    /* for nav links */
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+}
+
+
+/* ------------------------- 
+style for screen width 768px
+ ------------------------- */
+@media only screen and (max-width: 768px) {
+
+    /* for navbar */
+    .navbar-nav .nav-link {
+        margin-bottom: 1rem;
+    }
+
+    .page-header {
+        width: 100%;
+    }
+
+    .client-info {
+        width: 75%;
+    }
+
+    /* for footer */
+    footer {
+        margin: auto;
+        text-align: center;
+    }
+
+    footer p {
+        float: none;
+    }
+
+    .footer-icons {
+        float: none;
+    }
+}
+
+
+/* ------------------------- 
+style for screen width 576px
+ ------------------------- */
+@media only screen and (max-width: 576px) {
+
+    /* for section-title */
+    .section-title p {
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+
+    /* for testimonial section */
+    .single-client {
+        margin: auto;
+    }
+
+    .single-client img {
+        margin: auto;
+        float: none;
+        width: 15rem;
+        border-radius: 50%;
+    }
+
+    .client-info {
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .circlechart {
+        padding-top: 0;
+    }
+
+    .single-client {
+        overflow: hidden;
+        margin: auto;
+        margin-bottom: 4rem;
+    }
+
+    /* for footer */
+    footer {
+        margin: auto;
+        text-align: center;
+    }
+
+    footer p {
+        float: none;
+    }
+
+    .footer-icons {
+        float: none;
+    }
+
+    footer {
+        padding-bottom: 3rem;
+    }
+
+}
+
+/* ------------------------- 
+style for screen width 480px
+ ------------------------- */
+@media only screen and (max-width: 480px) {}
+
+/* ------------------------- 
+style for screen width 414px
+ ------------------------- */
+@media only screen and (max-width: 414px) {
+    .page-header {
+        padding: 2rem 0;
+        margin-bottom: 4rem;
+    }
+
+    .page-header h1 {
+        font-size: 3rem;
+    }
+
+    .navbar-brand img {
+        width: 8rem;
+    }
+}
+
+/* ------------------------- 
+style for screen width 320px
+ ------------------------- */
+@media only screen and (max-width: 320px) {
+    html {
+        font-size: 50%;
+    }
+
+    .page-header {
+        padding: 3rem 0;
+    }
+    .section-title p{
+        width: 100%;
+    }
+}
+
+/* ------------------------- 
+style for screen width 290px
+ ------------------------- */
+@media only screen and (max-width: 290px) {
+    html {
+        font-size: 45%;
+    }
+
+    .page-header {
+        max-height: 85vh;
+    }
+}
